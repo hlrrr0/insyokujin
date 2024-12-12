@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: 台湾校LP
+Template Name: (wip)サンクスページ台湾校LP
 */
 ?>
 
