@@ -1,0 +1,12 @@
+# WordPress core files
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+debug.log
