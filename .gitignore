@@ -16,6 +16,7 @@
 /wp-content/backups/
 /wp-content/upgrade/
 /wp-content/tmp/
+/wp-content/siteguard/
 /wp-content/plugins/*
 /wp-includes/
 /wp-content/ai1wm-backups/*
