@@ -21,7 +21,7 @@
             alt="オンライン学校説明"></a>
       </div>
       <div class="request-foot__item">
-        <a href="<?php echo esc_url(home_url('/pickup/4468/')); ?>"><img
+        <a href="<?php echo esc_url(home_url('open-campus')); ?>"><img
             src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/open-campus.jpg"
             alt="オープンキャンパス"></a>
       </div>
