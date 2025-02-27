@@ -719,7 +719,22 @@ Template Name: 台湾校LP
             window.dispatchEvent(new Event('scroll'));
         });
     </script>
+    <script>
+        var today = new Date();
 
+        var year = today.getFullYear();
+        var month = today.getMonth() + 1;
+        var day = today.getDate();
+        var time = today.getTime();
+
+        const cvdate = (year.toString() + month.toString() + day.toString() + time.toString());
+        document.addEventListener('wpcf7mailsent', function(event) {
+            const postdata_name = event.detail.inputs[1].value;
+            const postdata_mail = event.detail.inputs[2].value;
+            const postdata_tel = event.detail.inputs[3].value;
+            location = 'https://insyokujin.ac/thanks-taipei/?' + cvdate + '&user=' + postdata_name + '&mail=' + postdata_mail + '&tel=' + postdata_tel; //サンクスページURL
+        }, false);
+    </script>
 </head>
 
 <body>
