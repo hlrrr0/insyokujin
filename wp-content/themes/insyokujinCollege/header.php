@@ -115,12 +115,12 @@
                   <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/overseas.png" alt="海外就職コース">
                 </a>
               </li>
-              <li>
+              <!-- <li>
                 <a href="<?php echo esc_url(home_url('chinese-meister')); ?>" class="course-menu__chinese-food">
                   <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/chinese-food.png"
                     alt="中華マイスター専科">
                 </a>
-              </li>
+              </li> -->
             </ul>
           </li>
           <li class="header__item"><a href="<?php echo esc_url(home_url('recruiting')); ?>"
@@ -158,12 +158,12 @@
                 海外就職コース
               </a>
             </li>
-            <li>
+            <!-- <li>
               <a href="<?php echo esc_url(home_url('chinese-meister')); ?>"
                 class="drawer__link-sub drawer__link-sub--chinese">
                 中華マイスター専科
               </a>
-            </li>
+            </li> -->
           </ul>
         </li>
         <li class="drawer__item"><a href="<?php echo esc_url(home_url('recruiting')); ?>"

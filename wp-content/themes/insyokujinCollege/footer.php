@@ -47,7 +47,7 @@
               </ul>
             </li>
             <li class="footer-menu__item"><a href="<?php echo esc_url(home_url('sushi-meister03')); ?>" class="footer-menu___link">海外就職コース</a></li>
-            <li class="footer-menu__item"><a href="<?php echo esc_url(home_url('chinese-meister')); ?>" class="footer-menu___link">中華マイスター専科</a></li>
+            <!-- <li class="footer-menu__item"><a href="<?php echo esc_url(home_url('chinese-meister')); ?>" class="footer-menu___link">中華マイスター専科</a></li> -->
           </ul>
         </div>
         <div class="footer-menu__center">
