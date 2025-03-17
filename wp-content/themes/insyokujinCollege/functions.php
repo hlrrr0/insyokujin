@@ -556,3 +556,8 @@ function add_files(){
 }
 add_action('wp_enqueue_scripts', 'add_files');
 
+// 流入時のパラメーター取得
+function enqueue_custom_session_script() {
+    wp_enqueue_script( 'custom-session-script', get_template_directory_uri() . '/js/custom-session.js', array(), '1.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'enqueue_custom_session_script' );
