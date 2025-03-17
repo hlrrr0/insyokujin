@@ -548,6 +548,9 @@ function add_files(){
 
     wp_enqueue_script('yubinbango', get_stylesheet_directory_uri() . '/assets/js/yubinbango.js');
 
+    // 流入時のパラメーター取得
+    wp_enqueue_script( 'custom-session-script', get_template_directory_uri() . '/assets/js/custom-session.js', array(), '1.0', true );
+
     //カナ自動入力
     // wp_enqueue_script('autoKana', get_stylesheet_directory_uri() . '/assets/js/jquery.autoKana.js');
 
@@ -555,9 +558,3 @@ function add_files(){
     wp_enqueue_script('index', get_stylesheet_directory_uri() . '/assets/js/index.js');
 }
 add_action('wp_enqueue_scripts', 'add_files');
-
-// 流入時のパラメーター取得
-function enqueue_custom_session_script() {
-    wp_enqueue_script( 'custom-session-script', get_template_directory_uri() . '/js/custom-session.js', array(), '1.0', true );
-}
-add_action( 'wp_enqueue_scripts', 'enqueue_custom_session_script' );
