@@ -37,12 +37,12 @@
                     <h1 class="mv__title">
                         未経験<span>から<br class="md-show">たった</span>3ヶ月<span>で叶える<br></span>寿司職人<span>への道</span>
                     </h1>
+                    <?php get_template_part('assets/parts/cta-button_nofixed') ?>
                 </div>
             </div>
         </div>
     </div>
 
-    <?php get_template_part('assets/parts/cta-button') ?>
 
     <!-- 各種バナー -->
     <section id="banner-section" class="banner-section">
@@ -282,6 +282,7 @@
                     </div>
                 </div>
             </div>
+            <?php get_template_part('assets/parts/cta-button_nofixed') ?>
         </section>
 
         <!-- teacher -->
@@ -811,6 +812,7 @@
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/vector-1.svg" alt="">
                 </div>
             </div>
+            <?php get_template_part('assets/parts/cta-button_nofixed') ?>
         </section>
 
         <!-- Interview -->
@@ -1125,6 +1127,7 @@
                 </div>
             </div>
         </div>
+        <?php get_template_part('assets/parts/cta-button_nofixed') ?>
     </section>
 
     <!-- faq -->

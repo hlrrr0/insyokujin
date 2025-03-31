@@ -13,6 +13,7 @@
 
         <main id="postArchive" class="postWrap primaryWrap">
             <?php get_template_part('assets/parts/cta-button') ?>
+            
             <section class="archiveWrap">
                 <div class="archiveBox">
                     <ul class="archiveContent">

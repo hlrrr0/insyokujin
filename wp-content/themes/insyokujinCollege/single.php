@@ -9,7 +9,7 @@
   <div class="blogContentWrap">
     <main class="singleWrap primaryWrap" id="blog_single">
 
-    <?php get_template_part('assets/parts/cta-button') ?>
+      <?php get_template_part('assets/parts/cta-button') ?>
 
       <div class="container">
         <div class="post_content">
