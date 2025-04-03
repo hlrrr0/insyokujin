@@ -13,9 +13,9 @@ footer {
 
 .right-fixed-banner {
     position: fixed;
-    bottom: 20%;
+    top: 20px;
     right: 0;
-  z-index: 100000;
+    z-index: 100000;
     text-align: center;
     line-height: 100px;
 
