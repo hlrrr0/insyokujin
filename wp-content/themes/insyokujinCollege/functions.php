@@ -558,3 +558,39 @@ function add_files(){
     wp_enqueue_script('index', get_stylesheet_directory_uri() . '/assets/js/index.js');
 }
 add_action('wp_enqueue_scripts', 'add_files');
+
+function set_traffic_source_cookies() {
+    // クッキーの有効期限（例：30日）
+    $expire = time() + 60 * 60 * 24 * 30;
+
+    // utm_sourceの取得：URLにあればその値、なければHTTP_REFERER、さらにない場合は'direct'
+    if ( !isset($_COOKIE['utm_source']) ) {
+        if ( isset($_GET['utm_source']) && $_GET['utm_source'] ) {
+            $utm_source = sanitize_text_field( $_GET['utm_source'] );
+        } else {
+            $utm_source = !empty($_SERVER['HTTP_REFERER']) ? esc_url_raw( $_SERVER['HTTP_REFERER'] ) : 'direct';
+        }
+        setcookie('utm_source', $utm_source, $expire, COOKIEPATH, COOKIE_DOMAIN);
+    }
+    
+    // utm_mediumの取得：あればその値、なければ空文字
+    if ( !isset($_COOKIE['utm_medium']) ) {
+        if ( isset($_GET['utm_medium']) && $_GET['utm_medium'] ) {
+            $utm_medium = sanitize_text_field( $_GET['utm_medium'] );
+            setcookie('utm_medium', $utm_medium, $expire, COOKIEPATH, COOKIE_DOMAIN);
+        } else {
+            setcookie('utm_medium', '', $expire, COOKIEPATH, COOKIE_DOMAIN);
+        }
+    }
+    
+    // utm_campaignの取得：あればその値、なければ空文字
+    if ( !isset($_COOKIE['utm_campaign']) ) {
+        if ( isset($_GET['utm_campaign']) && $_GET['utm_campaign'] ) {
+            $utm_campaign = sanitize_text_field( $_GET['utm_campaign'] );
+            setcookie('utm_campaign', $utm_campaign, $expire, COOKIEPATH, COOKIE_DOMAIN);
+        } else {
+            setcookie('utm_campaign', '', $expire, COOKIEPATH, COOKIE_DOMAIN);
+        }
+    }
+}
+add_action( 'init', 'set_traffic_source_cookies' );

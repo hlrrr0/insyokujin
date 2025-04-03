@@ -22,6 +22,7 @@ SiteGuard_User_ExcludeSig ip(106.154.144.199)
 SiteGuard_User_ExcludeSig ip(106.154.144.203)
 SiteGuard_User_ExcludeSig ip(133.165.161.137)
 SiteGuard_User_ExcludeSig ip(202.12.247.218)
+SiteGuard_User_ExcludeSig ip(133.200.161.0)
 </IfModule>
 
 # END WordPress

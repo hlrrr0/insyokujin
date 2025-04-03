@@ -444,13 +444,16 @@ select::-ms-expand {
     display: flex;
     justify-content: center;
     margin: 20px 0;
+    padding-right: 5pc;
 }
 .cta-button__nofixed img {
     max-width: 560px;
 }
 
 @media screen and (max-width:768px) {
-
+    .cta-button__nofixed {
+        padding-right: 0;
+    }
     .cta-button__top picture,
     .cta-button__nofixed picture {
         max-width: 430px
