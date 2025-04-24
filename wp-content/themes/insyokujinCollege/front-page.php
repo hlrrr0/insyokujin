@@ -108,8 +108,8 @@
                     </a>
                 </div>
             </div> -->
-
         </div>
+        <?php get_template_part('assets/parts/cta-button_nofixed') ?>
     </section>
 
     <!-- メディア出演 -->

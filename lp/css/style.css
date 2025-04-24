@@ -211,12 +211,12 @@ h2.coconvimg {
     background-color: #fff;
     padding: 30px;
     border-radius: 20px;
-    width: 23%;
+    width: 35%;
     text-align: center;
 	position: relative;
 	max-width: 300px;
 	cursor: pointer;
-	    position: relative;
+	position: relative;
     top: 0;
 }
 
@@ -224,7 +224,7 @@ h2.coconvimg {
     background-color: #fff;
     padding: 30px;
     border-radius: 20px;
-    width: 23%;
+    width: 35%;
     text-align: center;
 	position: relative;
 	max-width: 300px;
@@ -366,7 +366,7 @@ section.se01 {
     width: 95%;
     max-width: 1000px;
     text-align: center;
-    margin: 0 auto;
+    margin: 60px auto 0;
 }
 h2 {
     line-height: 1.4em;
@@ -995,12 +995,12 @@ width: 95%;
         
         /*メニューをページ下部に固定*/
     #sp-fixed-menu{
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-    font-size: 0; 
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+        font-size: 0; 
         display: block;
-
+        z-index: 100;
     }
 
     /*メニューを横並びにする*/
