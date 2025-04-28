@@ -161,6 +161,13 @@ get_header();
                 <figure><img src="https://insyokujin.ac/wp-content/uploads/2025/04/overseas-price.jpg" alt="海外就職コース"></figure>
             </div>
         </section>
+        <style>
+        .priceDetail {
+            max-width: 1040px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        </style>
         <?php get_template_part('assets/parts/request-foot') ?>
     </main>
 </div>
