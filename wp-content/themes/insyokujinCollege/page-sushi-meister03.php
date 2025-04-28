@@ -99,7 +99,7 @@ get_header();
                 </ul>
             </div>
             <div class="lesson_image">
-                <figure><img src="https://insyokujin.ac/wp-content/uploads/2023/01/img_flow_internship.png"
+                <figure><img src="https://insyokujin.ac/wp-content/uploads/2025/04/curriculum.jpg"
                         alt="24ヶ月分の授業・レッスンイメージ"></figure>
             </div>
         </section>
@@ -157,14 +157,9 @@ get_header();
             </ul>
         </section>
         <section class="priceDetail">
-            <h3>費用と期間</h3>
-            <p class="priceDetail_info"><span class="tag">金額</span>2,200,000円</p>
-            <p class="priceDetail_info"><span class="tag">期間</span>24ヶ月間</p>
-            <p class="priceDetail_info_caution">
-                ※別途、教材や制服などの準備に59,551円（税込）がかかります。
-                <br class="page">
-                ※入学前に面接をさせていただきます。
-            </p>
+            <div class="priceDetail_image">
+                <figure><img src="https://insyokujin.ac/wp-content/uploads/2025/04/overseas-price.jpg" alt="海外就職コース"></figure>
+            </div>
         </section>
         <?php get_template_part('assets/parts/request-foot') ?>
     </main>
