@@ -65,7 +65,7 @@ get_header();
             <div class="curriculum">
                 <ul class="curriculum_cnt">
                     <li class="cnt_inner study">
-                        <p class="lessonTerm"><span class="lessonTermNumber">1~3</span>ヶ月</p>
+                        <p class="lessonTerm"><span class="lessonTermNumber">3</span>ヶ月</p>
                         <p class="serif">寿司マイスター専科を受講していただきます</p>
                         <figure><img
                                 src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/sushi-meister03/img_study.png"
@@ -81,7 +81,7 @@ get_header();
                         </div>
                     </li>
                     <li class="cnt_inner work">
-                        <p class="lessonTerm"><span class="lessonTermNumber">4~24</span>ヶ月</p>
+                        <p class="lessonTerm"><span class="lessonTermNumber">24</span>ヶ月</p>
                         <p class="serif">提携店舗にて実習</p>
                         <figure><img
                                 src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/sushi-meister03/img_work.png"
