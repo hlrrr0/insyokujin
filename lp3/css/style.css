@@ -1045,5 +1045,24 @@ a:visited {
 	br.spbr{
 		display: block;
 	}
-	
-}	
+    .cta-button__nofixed img {
+        max-width: 320px;
+        height: auto;
+        display: block;
+    }   
+}
+
+
+.cta-button__nofixed {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.cta-button__nofixed img {
+    max-width: 560px;
+    height: auto;
+    display: block;
+    width: 100%;
+}
+  
