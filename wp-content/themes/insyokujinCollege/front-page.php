@@ -149,6 +149,10 @@
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/kamigimon.png"
                             alt="" />
                     </li>
+                    <li class="slide">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/logo-oh-my-god.jpg"
+                            alt="" />
+                    </li>
                 </ul>
                 <ul class="slider">
                     <li class="slide">
@@ -177,6 +181,10 @@
                     </li>
                     <li class="slide">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/kamigimon.png"
+                            alt="" />
+                    </li>
+                    <li class="slide">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/logo-oh-my-god.jpg"
                             alt="" />
                     </li>
                 </ul>
@@ -213,6 +221,10 @@
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/kamigimon.png"
                             alt="" />
                     </li>
+                    <li class="slide md-show">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/logo-oh-my-god.jpg"
+                            alt="" />
+                    </li>
                 </ul>
                 <ul class="slider slider--right">
                     <li class="slide md-show">
@@ -241,6 +253,10 @@
                     </li>
                     <li class="slide md-show">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/kamigimon.png"
+                            alt="" />
+                    </li>
+                    <li class="slide md-show">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/logo-oh-my-god.jpg"
                             alt="" />
                     </li>
                 </ul>
