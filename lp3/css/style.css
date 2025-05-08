@@ -1255,3 +1255,299 @@ a:visited {
         letter-spacing: .08em
     }
 }
+
+.quality__table {
+    margin-top: 4pc
+}
+
+@media screen and (max-width:768px) {
+    .quality__table {
+        margin-top: 30px
+    }
+}
+
+.section-title__sub {
+    margin-top: 5px;
+    color: #a1894b;
+    font-size: 24px;
+    letter-spacing: .05em;
+    font-weight: 300
+}
+
+@media screen and (max-width:768px) {
+    .section-title__sub {
+        margin-top: 2px;
+        font-size: 1pc
+    }
+}
+
+.section-title.section-title--center {
+    text-align: center
+}
+
+.section-title.section-title--vertical {
+    writing-mode: vertical-rl;
+    text-align: left;
+    letter-spacing: .1em
+}
+
+@media screen and (max-width:768px) {
+    .section-title.section-title--vertical {
+        writing-mode: horizontal-tb;
+        text-align: center
+    }
+}
+
+.section-title__main {
+    font-size: 38px;
+    letter-spacing: .05em;
+    font-weight: 600
+}
+
+@media screen and (max-width:768px) {
+    .section-title__main {
+        font-size: 24px
+    }
+}
+
+.section-title__main span {
+    font-size: 30px
+}
+
+@media screen and (max-width:768px) {
+    .section-title__main span {
+        font-size: 18px
+    }
+}
+
+.section-title__main span.section-title__main--small {
+    font-size: 24px
+}
+
+@media screen and (max-width:768px) {
+    .section-title__main span.section-title__main--small {
+        font-size: 18px
+    }
+}
+
+.section-title__main--vertical {
+    letter-spacing: .2em
+}
+
+@media screen and (max-width:768px) {
+    .section-title__main--vertical {
+        letter-spacing: .08em
+    }
+}
+
+.section-title__sub {
+    margin-top: 5px;
+    color: #a1894b;
+    font-size: 24px;
+    letter-spacing: .05em;
+    font-weight: 300
+}
+
+@media screen and (max-width:768px) {
+    .section-title__sub {
+        margin-top: 2px;
+        font-size: 1pc
+    }
+}
+
+.section-title.section-title--center {
+    text-align: center
+}
+
+.section-title.section-title--left {
+    text-align: left
+}
+
+@media screen and (max-width:768px) {
+    .section-title.section-title--left {
+        text-align: center
+    }
+}
+
+.section-title.section-title--right {
+    text-align: center
+}
+
+@media screen and (max-width:768px) {
+    .section-title.section-title--right {
+        text-align: right
+    }
+}
+
+.section-text {
+    margin-top: 20px;
+    font-size: 1pc;
+    letter-spacing: .05em;
+    line-height: 1.8;
+    text-align: center;
+    font-weight: 600
+}
+
+@media screen and (max-width:768px) {
+    .section-text {
+        font-size: 9pt
+    }
+}
+
+.scroll-text {
+    margin-top: 30px;
+    text-align: center
+}
+
+@media screen and (max-width:768px) {
+    .scroll-text {
+        text-align: left
+    }
+}
+
+.scroll-text p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Noto Sans JP, sans-serif;
+    line-height: 1.5;
+    color: #a1894b;
+    position: relative;
+    display: inline-block
+}
+
+.scroll-text p:after {
+    content: "";
+    position: absolute;
+    background: url(../img/scroll-arrow.svg)no-repeat center/cover;
+    width: 29px;
+    height: 9px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 102%
+}
+
+@media screen and (max-width:1200px) {
+    .table-scroll {
+        overflow-x: scroll;
+        padding-top: 24px
+    }
+}
+
+.table_design13 {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    min-width: 700px;
+    font-weight: 700;
+    text-align: center
+}
+
+.table_design13 thead th {
+    padding: 1em .8em;
+    border-right: 1px solid #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 0;
+    width: 15pc
+}
+
+@media screen and (max-width:768px) {
+    .table_design13 thead th {
+        width: 150px
+    }
+}
+
+.table_design13 td {
+    color: #a1894b;
+    padding: 1.6em
+}
+
+.table_design13 thead th:not(:first-child) {
+    background: #a1894b;
+    color: #fff;
+    padding: .5em
+}
+
+.table_design13 thead th span {
+    font-size: .8rem
+}
+
+.table_design13 thead th:first-child {
+    width: 180px
+}
+
+@media screen and (max-width:768px) {
+    .table_design13 thead th:first-child {
+        width: 90pt
+    }
+}
+
+.table_design13 thead th:nth-child(2) {
+    background-color: #b01f24;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: .1em;
+    position: relative;
+    padding-bottom: 30px;
+    width: 300px
+}
+
+@media screen and (max-width:768px) {
+    .table_design13 thead th:nth-child(2) {
+        width: 170px
+    }
+}
+
+.table_design13 thead th:nth-child(2):before {
+    content: "";
+    width: 100%;
+    height: 24px;
+    position: absolute;
+    background-color: #b01f24;
+    left: 0;
+    bottom: 100%
+}
+
+.table_design13 tbody th {
+    background-color: #a1894b;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 0
+}
+
+@media screen and (max-width:768px) {
+    .table_design13 tbody th {
+        font-size: 1pc
+    }
+}
+
+.table_design13 tbody td {
+    border: 1px solid #a1894b;
+    font-size: 11px;
+    font-weight: 600
+}
+
+.table_design13 tbody td p {
+    max-width: 260px;
+    margin: 0 auto
+}
+
+.table_design13 tbody td img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    padding-bottom: 5px
+}
+
+.table_design13 tbody td {
+    background-color: #fff
+}
+
+.table_design13 td:nth-child(2) {
+    color: #b01f24
+}
