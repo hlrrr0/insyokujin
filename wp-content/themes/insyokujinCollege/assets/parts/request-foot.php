@@ -27,7 +27,7 @@
       </div>
       <div class="request-foot__item">
         <a href="<?php echo esc_url(home_url('experience-session')); ?>">
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/trial-session.jpg" alt="寿司職人適性診断">
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/trial-session.jpg" alt="寿司職人体験会イベント">
         </a>
       </div>
       <div class="request-foot__item">

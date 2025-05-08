@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: 寿司職人適性診断
+Template Name: 寿司職人体験会イベント
 */
 get_header();
 ?>
@@ -25,14 +25,14 @@ get_header();
         </li>
         <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem">
           <a itemscope="" itemtype="https://schema.org/WebPage" itemprop="item" tabindex="-1">
-            <span itemprop="name">寿司職人適性診断</span></a>
+            <span itemprop="name">寿司職人体験会イベント</span></a>
           <meta itemprop="position" content="2">
         </li>
       </ol>
     </section>
 
     <section class="contactNotice">
-    <h1 class="page__heading">寿司職人適性診断</h1>
+    <h1 class="page__heading">寿司職人体験会イベント</h1>
       <p class="page">適性診断では、プロ講師と一緒に握り体験などを行い、あなたの向き不向きを診断します。<br class="br-pc">「自分にできるかな」という不安やどんな仕事かなという疑問に答えます。</p>
 
     </section>
