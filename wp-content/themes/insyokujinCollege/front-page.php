@@ -908,6 +908,7 @@
                         <li class="access__tab-menu tab-menu js-tab-second">淡路島校</li>
                         <li class="access__tab-menu tab-menu js-tab-second">福岡校</li>
                         <li class="access__tab-menu tab-menu js-tab-second">台北校</li>
+                        <li class="access__tab-menu tab-menu js-tab-second">バンコク校</li>
                     </ul>
                     <div class="access__content-wrap">
                         <div class="access__content-box js-content-second">
@@ -1135,6 +1136,51 @@
                                         <a href="https://maps.app.goo.gl/rCUyTcCDDkdbRRiu8" target="_blank"
                                             class="school-info__maplink">GoogleMap</a>
                                         <a href="<?php echo esc_url(home_url('taipei')); ?>" target="_blank" class="school-info__taiwan" style="max-width: 170px; display: block; margin-top: 12px" ><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/taiwan-btn.png" alt="台北校HPはこちら"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="access__content-box js-content-second">
+                            <div class="access__school-info school-info">
+                                <div class="school-info__img">
+                                    <picture>
+                                        <source
+                                            srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/school-thailand.jpg"
+                                            media="(min-width: 768px)">
+                                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/school-thailand_sp.jpg"
+                                            alt="飲食人大学バンコク校" style="height: 100%">
+                                    </picture>
+                                </div>
+                                <div class="school-info__wrap">
+                                    <div class="school-info__title-group">
+                                        <h3 class="school-info__title">バンコク校</h3>
+                                        <p class="school-info__status">入学申込受付中</p>
+                                    </div>
+                                    <div class="school-info__reception reception">
+                                        <p class="reception__title">開講スケジュール・受付状況</p>
+                                        <div class="reception__period">
+                                            <p class="reception__period-text">
+                                                <?php echo esc_html(get_field('taiwan-schedule-1')); ?>
+                                            </p>
+                                            <p class="reception__period-status">
+                                                <?php echo esc_html(get_field('taiwan-reception-1')); ?><span><?php echo esc_html(get_field('taiwan-reception-detail-1')); ?></span>
+                                            </p>
+                                        </div>
+                                        <div class="reception__period">
+                                            <p class="reception__period-text">
+                                                <?php echo esc_html(get_field('taiwan-schedule-2')); ?>
+                                            </p>
+                                            <p class="reception__period-status">
+                                                <?php echo esc_html(get_field('taiwan-reception-2')); ?>
+                                                <span><?php echo esc_html(get_field('taiwan-reception-detail-2')); ?></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="school-info__address">
+                                        <p class="school-info__address-text">105 Soi Sukhumvit 20, Khlong Toei Sub-district, Khlong Toei District, Bangkok 10110
+                                        </p>
+                                        <a href=" https://maps.app.goo.gl/Gqf9MzeqAzywzyDo9" target="_blank"
+                                            class="school-info__maplink">GoogleMap</a>
                                     </div>
                                 </div>
                             </div>
