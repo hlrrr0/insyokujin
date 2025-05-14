@@ -1179,7 +1179,7 @@
                                     <div class="school-info__address">
                                         <p class="school-info__address-text">105 Soi Sukhumvit 20, Khlong Toei Sub-district, Khlong Toei District, Bangkok 10110
                                         </p>
-                                        <a href=" https://maps.app.goo.gl/Gqf9MzeqAzywzyDo9" target="_blank"
+                                        <a href="https://maps.app.goo.gl/NuqWvDoTj9xcYFYF9" target="_blank"
                                             class="school-info__maplink">GoogleMap</a>
                                     </div>
                                 </div>
