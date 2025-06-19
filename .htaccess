@@ -19,7 +19,7 @@ RewriteRule . /index.php [L]
 
 # imai自宅
 SiteGuard_User_ExcludeSig ip(202.12.247.218)
-# CiX Office
+# CiX Office 
 SiteGuard_User_ExcludeSig ip(219.98.13.142)
 </IfModule>
 
