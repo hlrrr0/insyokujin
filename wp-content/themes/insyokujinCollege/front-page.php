@@ -414,6 +414,43 @@
                                 和食と日本料理を中心に数々の有名店で職人として経験を積むこと42年。市場からの情報に強く旬の鮮魚を使った四季折々の料理を指導の中で惜しみなく教示している。</p>
                         </div>
                     </div>
+
+                    <div class="teacher__item">
+                        <div class="teacher__img">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/teacher-8.png"
+                                alt="" class="teacher-img">
+                        </div>
+                        <p class="teacher__title">料亭・割烹・懐石で27年<br>2,000人以上を指導</p>
+                        <p class="teacher__name">菱田 幸</p>
+                        <p class="teacher__accordion-title js-accordion-title">プロフィールを見る</p>
+                        <div class="teacher__accordion-content">
+                            <p>日本料理歴27年。老舗料亭や旅館などで研鑽を積み、ふぐ処理師などの資格も保有。調理師専門学校では20年間にわたり2,000人以上を指導し、試験委員や講師など多方面で活躍する教育実績豊富な専門家。</p>
+                        </div>
+                    </div>
+                    <div class="teacher__item">
+                        <div class="teacher__img">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/teacher-9.png"
+                                alt="" class="teacher-img">
+                        </div>
+                        <p class="teacher__title">30年以上の現場経験をもとに<br>日本の“本物”を伝える</p>
+                        <p class="teacher__name">松本 年正</p>
+                        <p class="teacher__accordion-title js-accordion-title">プロフィールを見る</p>
+                        <div class="teacher__accordion-content">
+                            <p>銀座・日本橋など東京の名店で30年以上勤務し、海外でも日本料理を指導。丁寧な所作と確かな技術に基づく指導は「基本の大切さ」が実感できると好評。現場仕込みの感覚を次世代へ伝える職人。</p>
+                        </div>
+                    </div>
+                    <div class="teacher__item">
+                        <div class="teacher__img">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/teacher-10.png"
+                                alt="" class="teacher-img">
+                        </div>
+                        <p class="teacher__title">京都ミシュラン星獲得店舗で<br>修行を重ねた実力派</p>
+                        <p class="teacher__name">森山 正崇</p>
+                        <p class="teacher__accordion-title js-accordion-title">プロフィールを見る</p>
+                        <div class="teacher__accordion-content">
+                            <p>大阪辻調理師専門学校で料理を学び、その後京都のミシュラン星を獲得した【京料理　たん熊北店本店】で修行を重ね、日本料理や和食に精通した実力派。洗練された技法は寿司の分野でも高い技術を発揮し、丁寧かつ伝わりやすい指導を行っている。</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
