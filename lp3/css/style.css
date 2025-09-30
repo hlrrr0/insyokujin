@@ -1418,7 +1418,7 @@ a:visited {
 .scroll-text p:after {
     content: "";
     position: absolute;
-    background: url(../img/scroll-arrow.svg)no-repeat center/cover;
+    /* background: url(../img/scroll-arrow.svg)no-repeat center/cover; */
     width: 29px;
     height: 9px;
     top: 50%;
