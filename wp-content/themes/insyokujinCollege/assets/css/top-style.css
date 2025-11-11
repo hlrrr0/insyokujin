@@ -475,18 +475,232 @@ select::-ms-expand {
     padding: 0 25px
 }
 
+.banner__wrapper-custom {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .banner__wrapper-custom {
+        flex-direction: column;
+        gap: 0px;
+        padding: 0 15px;
+    }
+}
+
 .banner__slider {
     margin: 0 auto;
-    width: 100%;
+    width: 33.3%;
     display: flex;
     justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .banner__slider {
+        width: 100%;
+    }
+}
+
+.banner__slider--articles {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.banner__slider--articles .swiper-slide {
+    width: 100%;
+    height: auto;
+}
+
+.banner__slider--articles .banner__slide {
+    width: 100%;
+    display: block;
+    margin-right: 0;
+}
+
+.banner__slider--articles .banner__slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.banner__slider--articles .banner__article-info {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.banner__slider--articles .banner__article-date {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.banner__slider--articles .banner__article-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.6;
+}
+
+.banner__slider--articles .swiper-pagination {
+    bottom: 10px;
+}
+
+.banner__slider--articles .swiper-button-prev,
+.banner__slider--articles .swiper-button-next {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.banner__slider--articles .swiper-button-prev:after {
+    content: '←';
+    font-size: 20px;
+}
+
+.banner__slider--articles .swiper-button-next:after {
+    content: '→';
+    font-size: 20px;
+}
+
+.banner__slider--events {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+    justify-content: flex-start;
+    background-color: #f0f8f0;
+    padding: 0px;
+    border-radius: 8px;
+}
+
+.banner__event-header {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #5cb85c;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.banner__event-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.banner__event-courses {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.banner__event-course {
+    background-color: #fff;
+    border-radius: 4px;
+    transition: transform 0.2s;
+}
+
+.banner__event-course:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.banner__event-link {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.banner__event-course-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    line-height: 1.4;
+}
+
+.banner__event-course-name::before {
+    content: '';
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+.banner__event-course-name--opencampus::before {
+    content: '🏫';
+    font-size: 22px;
+}
+
+.banner__event-course-name--experience::before {
+    content: '🍣';
+    font-size: 22px;
+}
+
+.banner__event-course-name--online::before {
+    content: '💻';
+    font-size: 22px;
+}
+
+.banner__event-course-info {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.banner__event-status {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.banner__slider--consultation {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner__slider--consultation .banner__link {
+    display: block;
+    width: 100%;
+}
+
+.banner__slider--consultation img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.banner__slider--events .banner__slide {
+    width: 100%;
+    margin-right: 0;
+}
+
+.banner__slider--events .banner__slide img {
+    width: 100%;
+    height: auto;
 }
 
 .banner__slider-sp-reverse {
     margin-top: 26px
 }
 
-.banner__slide:not(:last-child) {
+.banner__slider:not(.banner__slider--articles) .banner__slide:not(:last-child) {
     margin-right: 20px
 }
 
@@ -508,11 +722,11 @@ select::-ms-expand {
     }
 
     .banner__slide:nth-child(2n+1) {
-        margin-right: 15px
+        /* margin-right: 15px */
     }
 
     .banner__slide:nth-child(n+3) {
-        margin-top: 20px
+        /* margin-top: 20px */
     }
 }
 

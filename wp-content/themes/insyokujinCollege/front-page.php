@@ -46,8 +46,8 @@
 
     <!-- 各種バナー -->
     <section id="banner-section" class="banner-section">
-        <div class="banner__wrapper">
-            <div class="banner__slider">
+        <div class="banner__wrapper-custom">
+            <!-- <div class="banner__slider">
                 <div class="banner__slide">
                     <a href="<?php echo esc_url(get_field('banner-link-1')); ?>" target="_blank" class="banner__link">
                         <img src="<?php echo esc_url(get_field('banner-img-1')); ?>" alt="" />
@@ -73,41 +73,77 @@
                         <img src="<?php echo esc_url(get_field('banner-img-5')); ?>" alt="" />
                     </a>
                 </div>
+            </div> -->
+            <!-- 1つ目: 記事スライダー -->
+            <div class="banner__slider banner__slider--articles swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide banner__slide">
+                        <a href="https://insyokujin.ac/pickup/5181/" class="banner__link banner__link--article">
+                            <img src="https://insyokujin.ac/wp-content/uploads/2025/01/2-1.jpg" alt="寿司職人への道" />
+                            <!-- <div class="banner__article-info">
+                                <p class="banner__article-date">2025.01.15</p>
+                                <h3 class="banner__article-title">目指すは世界！高校卒業後、飲食人大学で寿司職人の道を切り開いた村上智紀さんの挑戦</h3>
+                            </div> -->
+                        </a>
+                    </div>
+                    <div class="swiper-slide banner__slide">
+                        <a href="https://insyokujin.ac/voice/5689/" class="banner__link banner__link--article">
+                            <img src="https://insyokujin.ac/wp-content/uploads/2025/01/2-1.jpg" alt="お笑い芸人から寿司職人へ" />
+                            <!-- <div class="banner__article-info">
+                                <p class="banner__article-date">2024.12.20</p>
+                                <h3 class="banner__article-title">母のお店を救いたい。お笑い芸人として活動しながら、寿司技術を身につけた中川秀人さんの挑戦</h3>
+                            </div> -->
+                        </a>
+                    </div>
+                    <div class="swiper-slide banner__slide">
+                        <a href="https://insyokujin.ac/pickup/4733/" class="banner__link banner__link--article">
+                            <img src="https://insyokujin.ac/wp-content/uploads/2025/01/2-1.jpg" alt="海外で寿司店を営む" />
+                            <!-- <div class="banner__article-info">
+                                <p class="banner__article-date">2024.11.10</p>
+                                <h3 class="banner__article-title">「今こそ自分に投資するとき」海の向こうで寿司店を営む早川芳美さんのストーリー</h3>
+                            </div> -->
+                        </a>
+                    </div>
+                </div>
+                <!-- ページネーション -->
+                <div class="swiper-pagination"></div>
+                <!-- ナビゲーションボタン -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            
+            <!-- 2つ目: イベント -->
+            <div class="banner__slider banner__slider--events">
+                <div class="banner__event-header">
+                    <h3 class="banner__event-title">イベント情報</h3>
+                </div>
+                <div class="banner__event-courses">
+                    <div class="banner__event-course">
+                        <a href="https://insyokujin.ac/open-campus/" class="banner__event-link">
+                            <p class="banner__event-course-name banner__event-course-name--opencampus">オープンキャンパス</p>
+                        </a>
+                    </div>
+                    <div class="banner__event-course">
+                        <a href="https://insyokujin.ac/experience-session/" class="banner__event-link">
+                            <p class="banner__event-course-name banner__event-course-name--experience">握り体験会</p>
+                        </a>
+                    </div>
+                    <div class="banner__event-course">
+                        <a href="https://insyokujin.ac/tour/" class="banner__event-link">
+                            <p class="banner__event-course-name banner__event-course-name--online">オンライン学校説明会</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 3つ目: 個別相談会バナー -->
+            <div class="banner__slider banner__slider--consultation">
+                <a href="https://insyokujin.ac/triallesson/" target="_blank" class="banner__link">
+                    <img src="https://insyokujin.ac/wp-content/uploads/2025/07/飲食人大学-TOPページバナー-4-1-1.png" alt="LINE相談" />
+                </a>
             </div>
 
-            <!-- <div class="banner__slider-sp md-show">
-                <div class="banner__slide">
-                    <a href="https://page.line.me/698atfkj?openQrModal=true" target="_blank" class="banner__link">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/banner-line.jpg"
-                            alt="" />
-                    </a>
-                </div>
-                <div class="banner__slide">
-                    <a href="<?php echo esc_url(home_url('triallesson')); ?>" target="_blank" class="banner__link">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/banner-mister.jpg"
-                            alt="" />
-                    </a>
-                </div>
-                <div class="banner__slide">
-                    <a href="<?php echo esc_url(home_url('tour')); ?>" target="_blank" class="banner__link">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/banner-school.jpg"
-                            alt="" />
-                    </a>
-                </div>
-                <div class="banner__slide">
-                    <a href="<?php echo esc_url(home_url('experience-session')); ?>" target="_blank"
-                        class="banner__link">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/banner-grip.jpg"
-                            alt="" />
-                    </a>
-                </div>
-                <div class="banner__slide">
-                    <a href="<?php echo esc_url(home_url('triallesson')); ?>" target="_blank" class="banner__link">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/banner-fukuoka.jpg"
-                            alt="" />
-                    </a>
-                </div>
-            </div> -->
+
         </div>
         <?php get_template_part('assets/parts/cta-button_nofixed') ?>
     </section>
@@ -856,7 +892,7 @@
                         <div class="tuition__text-wrap">
                             <p class="tuition__text">夜間コースは和食調理実務経験2年以上、又は和食以外の調理実務経験3年以上の方を対象とした2ヶ月コースとなります</p>
                             <p class="tuition__text-annotation">※金額の表記は全て税込になります</p>
-                            <p class="tuition__text-annotation">※別途、教材や制服などの準備に60,761円がかかります</p>
+                            <p class="tuition__text-annotation">※別途、教材や制服などの準備に64,240円がかかります</p>
                             <p class="tuition__text-annotation">※お支払いは銀行振込（一括）、学費ローン（分割払い）、クレジット決済をお選びいただけます</p>
                         </div>
                     </div>
@@ -1350,3 +1386,20 @@
 </main>
 
 <?php get_footer(); ?>
+<style>
+.banner__slider--articles .banner__article-info {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.banner__article-date {
+    font-size: 12px;
+    color: #666;
+}
+
+.banner__article-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+</style>
