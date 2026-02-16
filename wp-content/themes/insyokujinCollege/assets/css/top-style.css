@@ -575,7 +575,7 @@ select::-ms-expand {
     flex-direction: column;
     margin-bottom: 26px;
     justify-content: flex-start;
-    background-color: #f0f8f0;
+    background-color: #f8f0f3;
     padding: 0px;
     border-radius: 8px;
 }
@@ -583,7 +583,7 @@ select::-ms-expand {
 .banner__event-header {
     text-align: center;
     padding: 15px 0;
-    background-color: #5cb85c;
+    background-color: #b01f24;
     border-radius: 4px;
     margin-bottom: 20px;
 }
@@ -599,6 +599,7 @@ select::-ms-expand {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    margin: 0 12px;
 }
 
 .banner__event-course {
@@ -620,7 +621,7 @@ select::-ms-expand {
 }
 
 .banner__event-course-name {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     color: #333;
     margin: 0;
@@ -1912,18 +1913,21 @@ a.interview__button-link:hover:after {
     opacity: 1
 }
 
-.abroad {
+.abroad,
+.careers {
     padding: 72px 0;
     background: url(../img/abroad_bg.jpg)no-repeat center/cover
 }
 
 @media screen and (max-width:768px) {
-    .abroad {
+    .abroad,
+    .careers {
         background: url(../img/abroad_bg-sp.jpg)no-repeat top/cover
     }
 }
 
-.abroad__title {
+.abroad__title,
+.careers__title {
     text-align: center;
     font-size: 45px;
     font-weight: 600;
@@ -1933,27 +1937,32 @@ a.interview__button-link:hover:after {
 }
 
 @media screen and (max-width:768px) {
-    .abroad__title {
+    .abroad__title,
+    .careers__title {
         font-size: 26px
     }
 }
 
-.abroad__title span {
+.abroad__title span,
+.careers__title span {
     font-size: 2pc
 }
 
 @media screen and (max-width:768px) {
-    .abroad__title span {
+    .abroad__title span,
+    .careers__title span {
         font-size: 20px
     }
 }
 
-.abroad__button {
+.abroad__button,
+.careers__button {
     margin-top: 44px;
     text-align: center
 }
 
-.abroad__button a {
+.abroad__button a,
+.careers__button a {
     text-align: center;
     display: inline-block;
     padding: 9pt 60px;
@@ -1965,14 +1974,19 @@ a.interview__button-link:hover:after {
     position: relative;
     transition: all .3s ease-in-out
 }
+.careers__button a {
+    font-size: 1.5pc;
+}
 
-.abroad__button a:hover {
+.abroad__button a:hover,
+.careers__button a:hover {
     background-color: #fff;
     color: #a1894b;
     opacity: 1
 }
 
-.abroad__button a:after {
+.abroad__button a:after,
+.careers__button a:after {
     content: "";
     background-color: #fff;
     position: absolute;
@@ -1984,7 +1998,8 @@ a.interview__button-link:hover:after {
     transition: all .3s ease-in-out
 }
 
-.abroad__button a:hover:after {
+.abroad__button a:hover:after,
+.careers__button a:hover:after {
     background-color: #a1894b;
     right: -23%;
     opacity: 1

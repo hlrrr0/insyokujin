@@ -529,7 +529,7 @@ function my_script_init(){
 
     // /lpa以外で読み込み
     if (!is_page('lpa')) {
-        wp_enqueue_style('style-top-css', get_template_directory_uri() . '/assets/css/top-style.min.css', array(), '1.0.1');
+        wp_enqueue_style('style-top-css', get_template_directory_uri() . '/assets/css/top-style.css', array(), '1.0.1');
     }
 }
 add_action('wp_enqueue_scripts', 'my_script_init');

@@ -79,7 +79,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide banner__slide">
                         <a href="https://insyokujin.ac/pickup/5181/" class="banner__link banner__link--article">
-                            <img src="https://insyokujin.ac/wp-content/uploads/2025/01/2-1.jpg" alt="寿司職人への道" />
+                            <img src="https://insyokujin.ac/wp-content/uploads/2024/12/2-1.jpg" alt="寿司職人への道" />
                             <!-- <div class="banner__article-info">
                                 <p class="banner__article-date">2025.01.15</p>
                                 <h3 class="banner__article-title">目指すは世界！高校卒業後、飲食人大学で寿司職人の道を切り開いた村上智紀さんの挑戦</h3>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="swiper-slide banner__slide">
                         <a href="https://insyokujin.ac/voice/5689/" class="banner__link banner__link--article">
-                            <img src="https://insyokujin.ac/wp-content/uploads/2025/01/2-1.jpg" alt="お笑い芸人から寿司職人へ" />
+                            <img src="https://insyokujin.ac/wp-content/uploads/2025/09/%E7%9B%B4%E7%B4%80%E3%81%95%E3%82%93.jpg" alt="お笑い芸人から寿司職人へ" />
                             <!-- <div class="banner__article-info">
                                 <p class="banner__article-date">2024.12.20</p>
                                 <h3 class="banner__article-title">母のお店を救いたい。お笑い芸人として活動しながら、寿司技術を身につけた中川秀人さんの挑戦</h3>
@@ -97,7 +97,7 @@
                     </div>
                     <div class="swiper-slide banner__slide">
                         <a href="https://insyokujin.ac/pickup/4733/" class="banner__link banner__link--article">
-                            <img src="https://insyokujin.ac/wp-content/uploads/2025/01/2-1.jpg" alt="海外で寿司店を営む" />
+                            <img src="https://insyokujin.ac/wp-content/uploads/2024/09/%E5%8D%92%E6%A5%AD%E7%94%9F%EF%BC%BF%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC-66da8988bf016.jpg" alt="海外で寿司店を営む" />
                             <!-- <div class="banner__article-info">
                                 <p class="banner__article-date">2024.11.10</p>
                                 <h3 class="banner__article-title">「今こそ自分に投資するとき」海の向こうで寿司店を営む早川芳美さんのストーリー</h3>
@@ -963,7 +963,7 @@
         </section>
     </div>
 
-    <?php get_template_part('assets/parts/abroad') ?>
+    <?php get_template_part('assets/parts/careers') ?>
 
     <!-- access -->
     <section class="access" id="access">

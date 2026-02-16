@@ -99,15 +99,15 @@
           </li>
           <li class="header__item"><a href="<?php echo esc_url(home_url('/#program')); ?>"
               class="header__link">プログラム内容</a></li>
-          <li class="header__item"><a href="<?php echo esc_url(home_url('/#interview')); ?>"
-              class="header__link">卒業生の声</a></li>
           <li class="header__item"><a href="<?php echo esc_url(home_url('/#tuition')); ?>"
               class="header__link">学費と支払い方法</a></li>
-          <li class="header__item"><a href="<?php echo esc_url(home_url('/#access')); ?>" class="header__link">学校情報</a>
-          </li>
+          <li class="header__item"><a href="<?php echo esc_url(home_url('/#interview')); ?>"
+              class="header__link">卒業生の声</a></li>
+          <li class="header__item"><a href="https://careers.insyokujin.ac/" class="header__link">就職・キャリア支援</a></li>
+          <li class="header__item"><a href="<?php echo esc_url(home_url('/#access')); ?>" class="header__link">学校情報</a></li>
           <li class="header__item"><a href="<?php echo esc_url(home_url('/#faq')); ?>" class="header__link">よくあるご質問</a>
           </li>
-          <li class="header__item">
+          <!-- <li class="header__item">
             <p class="header__link">コース紹介</p>
             <ul class="header__item-sub course-menu">
               <li>
@@ -115,14 +115,14 @@
                   <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/overseas.png" alt="海外就職コース">
                 </a>
               </li>
-              <!-- <li>
+              <li>
                 <a href="<?php echo esc_url(home_url('chinese-meister')); ?>" class="course-menu__chinese-food">
                   <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/chinese-food.png"
                     alt="中華マイスター専科">
                 </a>
-              </li> -->
+              </li>
             </ul>
-          </li>
+          </li> -->
           <li class="header__item"><a href="<?php echo esc_url(home_url('recruiting')); ?>"
               class="header__link">採用担当の方へ</a></li>
         </ul>
