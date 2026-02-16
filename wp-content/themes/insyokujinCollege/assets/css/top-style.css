@@ -600,6 +600,7 @@ select::-ms-expand {
     flex-direction: column;
     gap: 12px;
     margin: 0 12px;
+    margin-bottom: 20px;
 }
 
 .banner__event-course {

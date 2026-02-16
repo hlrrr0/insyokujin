@@ -143,13 +143,14 @@
             class="drawer__link">プログラム内容</a></li>
         <li class="drawer__item"><a href="<?php echo esc_url(home_url('/#interview')); ?>"
             class="drawer__link">卒業生の声</a></li>
-        <li class="drawer__item"><a href="<?php echo esc_url(home_url('/#tuition')); ?>"
+        <li class="drawer__item"><a href="https://careers.insyokujin.ac/" class="drawer__link">就職・キャリア支援</a></li>
+            <li class="drawer__item"><a href="<?php echo esc_url(home_url('/#tuition')); ?>"
             class="drawer__link">学費と支払い方法</a></li>
         <li class="drawer__item"><a href="<?php echo esc_url(home_url('/#access')); ?>" class="drawer__link">学校情報</a>
         </li>
         <li class="drawer__item"><a href="<?php echo esc_url(home_url('/#faq')); ?>" class="drawer__link">よくあるご質問</a>
         </li>
-        <li class="drawer__item">
+      <!-- <li class="drawer__item">
           <p class="drawer__link">コース紹介</p>
           <ul class="drawer__item-sub">
             <li>
@@ -158,14 +159,14 @@
                 海外就職コース
               </a>
             </li>
-            <!-- <li>
+            <li>
               <a href="<?php echo esc_url(home_url('chinese-meister')); ?>"
                 class="drawer__link-sub drawer__link-sub--chinese">
                 中華マイスター専科
               </a>
-            </li> -->
+            </li>
           </ul>
-        </li>
+        </li> -->
         <li class="drawer__item"><a href="<?php echo esc_url(home_url('recruiting')); ?>"
             class="drawer__link">採用担当の方へ</a></li>
       </ul>
